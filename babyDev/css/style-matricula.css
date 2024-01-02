@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Pathway+Extreme:ital,wght@0,200;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Orbitron&family=Pathway+Extreme:ital,wght@0,200;1,100;1,200&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    color: #0044d0;  
+}
+body > h3{
+    padding-left: 50px;
+}
+.header-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(14, 14, 128);
+    color: whitesmoke;
+    font-family: 'Caprasimo', cursive;
+    
+    
+}
+.footer-container{
+    background-color: rgb(14, 14, 128);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    color: whitesmoke;
+    font-family: 'Caprasimo', cursive;
+    
+}
+.footer-container-social{
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+.footer-container-social > a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer-container-social > a:hover{
+    color: black;
+}
+form > div {
+    margin-bottom: 10px;
+}
+select{
+    margin-bottom: 10px;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
